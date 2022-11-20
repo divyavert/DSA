@@ -8,14 +8,14 @@ public class treemain {
 
     public static void main(String[] args) {
 
-        tree root = new tree(90);
-        root.left = new tree(80);
-        root.left.left = new tree(50);
-        root.right = new tree(30);
-        root.right.left =new tree(70);
-        root.right.right = new tree(10);
-        root.right.left.right =new tree(60);
-        root.left.left.right =new tree(100);
+        tree root = new tree(50);
+        root.left = new tree(30);
+        root.left.left = new tree(20);
+        root.left.right = new tree(40);
+        root.right = new tree(70);
+        root.right.left =new tree(60);
+        root.right.right = new tree(80);
+
 
 
 //            tree root = new tree(10);
